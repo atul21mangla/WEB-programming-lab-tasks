@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #aac8a7;
+}
+header {
+  display: flex;
+  height: 150px;
+  background-color: #e9ffc2;
+}
+header > img {
+  margin-left: 35%;
+  height: 142px;
+  width: 120px;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+header > h1 {
+  margin: 64px 0px 22px 16px;
+  font-size: 40px;
+}
+div .form_date {
+  display: flex;
+  margin: 44px -23px;
+}
+
+section {
+  background-color: #fdffae;
+  width: 350px;
+  height: 140px;
+  margin: 159px 20px 12px 54px;
+  border-left: 6px solid #f6fa70;
+}
+section p {
+  font-size: 21px;
+  padding: 10px;
+  margin-left: 8px;
+}
+main {
+  border: 2px solid black;
+  background-color: #f7d7ae;
+}
+main h2 {
+  font-size: 35px;
+  margin: 20px 0px 10px 20px;
+}
+main > p {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 0px 0px 20px 0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-bottom: 3px solid rgb(186, 100, 100);
+}
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 12px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: 17px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  form{
+    padding-left: 15px;
+  }
+  form label{
+    font-size: 18px;
+  }
+  p{
+    font-size: 15px;
+    line-height: 22px;
+  }
+  button{
+    background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  font-size: 20px;
+  }
+  button:hover{
+    opacity:1;
+}
+form a{
+    color: dodgerblue;
+}
+#event {
+    font-weight: 600;
+}

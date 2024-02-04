@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registration.css">
+    <title>Event Form</title>
+  </head>
+  <body>
+    <div class="container">
+        <p>Enter your details</p>
+      <form action="#">
+        <label for="email">Email :</label>
+        <input type="email" name="email" placeholder="Enter your email" /><br />
+        <label>First Name :</label>
+        <input type="text" name="fname" placeholder="First name" /><br />
+        <label>Second Name :</label>
+        <input type="text" name="sname" placeholder="Second name" /><br />
+        <label>Gender :</label>
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" value="male" />
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" value="female" /><br />
+        <label>Are you a Vitian or not?<span>(if Yes , enter your Registration
+          number)</span></label>
+        <label for="vit">yes</label>
+        <input type="radio" name="vit" value="yes" />
+        <label for="vit">No</label>
+        <input type="radio" name="vit" value="no" /><br />
+        <label>Registration Number :</label>
+        <input
+          type="text"
+          name="sname"
+          placeholder="Enter your registration number"
+        /><br />
+        <label for="school">Enter your school :</label>
+        <input list="school" />
+        <datalist id="school">
+          <option value="SCOPE"></option>
+          <option value="SENSE"></option>
+          <option value="SITE"></option>
+          <option value="SBST"></option>
+        </datalist><br>
+        <label for="country">Country :</label>
+        <select name="country" id="country">
+          <option selected value="">-</option>
+          <option value="india">India</option>
+          <option value="india">US</option>
+          <option value="Australia">Australia</option>
+          <option value="London">London</option>
+          <option value="North America">North America</option>
+          <option value="South-Africa">South-Africa</option>
+          <option value="Russia">Russia</option>
+          <option value="Europe">Europe</option></select
+        ><br />
+        <fieldset>
+          <legend>Address</legend>
+
+          <label for="city">City :</label>
+          <input
+            type="text"
+            name="city"
+            id="City"
+            placeholder="Enter your city"
+          /><br />
+          <label>StreetName :</label>
+          <input type="text" name="Stname" /><br />
+          <label>AreaName :</label>
+          <input type="text" name="AreaName" />
+        </fieldset>
+        <label>Phone Number :</label>
+        <input
+          type="number"
+          name="Phone"
+          id="phn"
+          placeholder="Mobile number"
+        /><br />
+        <label for="excited">How much you guys are excited for Meetup?</label>
+        <input type="range" max="10" /><br />
+        <label for="feedback">Give your Feedback.</label>
+        <textarea
+          name="feedback"
+          id="feedback"
+          cols="30"
+          rows="10"
+          placeholder="Write something.."
+        ></textarea>
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Reset">
+      </form>
+    </div>
+  </body>
+</html>
